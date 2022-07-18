@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 // import All the Header Files
 import Banner from "./components/Banner";
 import Header from "./components/Header";
+import NavMobile from "./components/NavMobile";
 
 const App = () => {
-  const [navMobile, setNavMobile] = React.useState(false);
+  const [navMobile, setNavMobile] = useState(true);
 
   return (
     <div className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px] before:hidden before:lg:flex'>
@@ -17,7 +18,7 @@ const App = () => {
           navMobile ? "right-0" : "-right-full"
         } fixed top-0 bottom-0 w-48 transition-all`}
       >
-        <navMobile setNavMobile={setNavMobile} />
+        <NavMobile setNavMobile={setNavMobile} />
       </div>
     </div>
   );
