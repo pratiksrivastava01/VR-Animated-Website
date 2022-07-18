@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
+import Experience from "./components/Experience";
+
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -20,6 +22,7 @@ const App = () => {
       >
         <NavMobile setNavMobile={setNavMobile} />
       </div>
+      <Experience/>
     </div>
   );
 };

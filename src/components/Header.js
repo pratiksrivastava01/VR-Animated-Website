@@ -5,7 +5,7 @@ import Logo from '../assets/img/logo.svg';
 import Nav from './Nav';
 
 // import icons
-import { HiMenu } from 'react-icons/hi';
+import { HiMenuAlt1 } from 'react-icons/hi';
 
 const Header = ({ setNavMobile }) => {
   return (
@@ -24,7 +24,7 @@ const Header = ({ setNavMobile }) => {
           {/* nav */}
           <Nav />
           {/* nav mobile btn */}
-          <HiMenu
+          <HiMenuAlt1
             onClick={() => setNavMobile(true)}
             className='lg:hidden text-3xl text-white cursor-pointer'
           />
