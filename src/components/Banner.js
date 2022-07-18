@@ -1,5 +1,8 @@
 import React from "react";
 
+// import components
+import Users from '../components/Users';
+
 //import Images
 import Img from "../assets/img/banner-img.png";
 
@@ -38,6 +41,7 @@ const Banner = () => {
                 Explore Devices
               </a>
             </div>
+            <Users/>
           </div>
           <div data-aos="fade-up" data-aos-delay="800">
             <img src={Img} alt="" />
