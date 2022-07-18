@@ -12,6 +12,7 @@ import Headsets from "./components/Headsets";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Testimonial from "./components/Testimonial";
+import Explore from "./components/Explore";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -40,6 +41,7 @@ const App = () => {
       <Video />
       <Headsets />
       <Testimonial/>
+      <Explore/>
     </div>
   );
 };
