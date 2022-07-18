@@ -11,6 +11,7 @@ import Headsets from "./components/Headsets";
 // import aos (animate on scroll)
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Testimonial from "./components/Testimonial";
 
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -38,6 +39,7 @@ const App = () => {
       <Experience />
       <Video />
       <Headsets />
+      <Testimonial/>
     </div>
   );
 };
